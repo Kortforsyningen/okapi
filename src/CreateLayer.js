@@ -80,7 +80,8 @@ export const createLayer = function (opt) {
     color: color,
     type: 'base',
     visible: visible,
-    source: source
+    source: source,
+    preload: Infinity
   })
 }
 
